@@ -29,8 +29,4 @@ mkdir -p -v "src/main/java/$path"
 
 mv "src/main/java/MAIN_PLUGIN_CLASS.java" "src/main/java/$path/$mainPluginClass.java"
 
-
-
-
-
-
+rm README.md
