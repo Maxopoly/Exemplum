@@ -23,3 +23,7 @@ Alternatively you can manually create a folder and get a copy of Exemplum. Note 
 Once you have Exemplum ready, open up `setup.sh` with a text editor of your choice and set the parameter at the top to fit your project
 
 Then run `./setup.sh` to setup your project
+
+Delete `setup.sh` once it's done and your project is ready.
+
+Optionally you can also add the appropriate remote repository by doing `git remote add git@github.com:Maxopoly/Exemplum.git` and modifying the url as needed.
