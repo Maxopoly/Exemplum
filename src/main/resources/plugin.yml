@@ -1,6 +1,6 @@
 name: ${project.name}
-main: com.github.civcraft.PLUGIN_NAME_CHANGE_ME.MAIN_PLUGIN_CLASS
-author: YOUR_NAME_GOES_HERE
+main: GROUP_ID_REPLACE_ME.MAIN_PLUGIN_CLASS
+author: AUTHOR_REPLACE_ME
 version: ${project.version}
 depend: [CivModCore]
 softdepend: []
