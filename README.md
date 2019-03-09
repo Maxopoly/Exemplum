@@ -4,7 +4,7 @@ Dummy plugin for the development of civ plugins which does a lot of the normal s
 
 ---
 
-##How to use
+## How to use
 
 Copy this, replace pluginName and paste it into a console:
 
