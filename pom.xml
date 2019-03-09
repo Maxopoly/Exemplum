@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<version>1.0.0</version>
 	<name>PLUGIN_NAME_REPLACE_ME</name>
-	<url>https://github.com/maxopoly/PLUGIN_NAME_REPLACE_ME</url>
+	<url>https://github.com/AUTHOR_REPLACE_ME/PLUGIN_NAME_REPLACE_ME</url>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -34,13 +34,13 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot</artifactId>
-			<version>1.10-R0.1-SNAPSHOT</version>
+			<version>1.13.2-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>vg.civcraft.mc.civmodcore</groupId>
 			<artifactId>CivModCore</artifactId>
-			<version>1.4.43</version>
+			<version>1.7.2</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
@@ -51,8 +51,8 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 		<repository>
-			<id>Jenkins-repo</id>
-			<url>http://build.civcraft.co:8080/plugin/repository/everything/</url>
+			<id>devoted-repo</id>
+			<url>https://build.devotedmc.com/plugin/repository/everything/</url>
 		</repository>
 	</repositories>
 </project>
