@@ -1,21 +1,25 @@
 # Exemplum
 
-Dummy plugin for the development of civcraft plugins that takes away some of the most common steps which have to be taken initially every time a new plugin is made
+Dummy plugin for the development of civ plugins which does a lot of the normal setup for you
 
 ---
 
 ##How to use
 
-1. Clone this repository
+Copy this, replace pluginName and paste it into a console:
 
-2. Import into an IDE of your choice
+```
+pluginName=Exemplum
+mkdir "$pluginName"
+cd "$pluginName"
+git init
+git checkout master
+git pull git@github.com:Maxopoly/Exemplum.git
+```
 
-3. Rename (via refactor) the package "PLUGIN_NAME_REPLACE_ME" to something appropriate, usually the plugin name is best here
+Alternatively you can manually create a folder and get a copy of Exemplum. Note that I don't recommend cloning the repo, because that sets Maxopoly/Exemplum as upstream of your project, which you definitely don't want. It also names the folder wrong, which you will have to fix manually.
 
-4. Rename (via refactor) MAIN_PLUGIN_CLASS to something unique, like the name of your plugin or at least something that resembles that this will be the main plugin class
 
-5. Edit artifactId, name and url in the pom.xml. Usually filling in the name of your plugin for all of those should be enough
+Once you have Exemplum ready, open up `setup.sh` with a text editor of your choice and set the parameter at the top to fit your project
 
-6. Open up the plugin.yml, which can be found at src/main/resources/plugin.yml, add yourself as author and adjust the name and path of your main plugin class, which you decided in step 2 and 3
-
-7. Optionally rename the CustomCommandHandler in the commands package to something unique to avoid conflicts with other plugins using this template
+Then run `./setup.sh` to setup your project
