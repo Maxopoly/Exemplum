@@ -1,4 +1,4 @@
-package com.github.civcraft.PLUGIN_NAME_REPLACE_ME;
+package GROUP_ID_REPLACE_ME;
 
 import vg.civcraft.mc.civmodcore.ACivMod;
 
