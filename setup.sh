@@ -3,7 +3,7 @@
 author=TODO
 pluginName=TODO
 groupId=TODO
-
+mainPluginClass="$groupId.$pluginNamePlugin"
 
 function replaceOccurences() {
 	find src -type f -print0 | xargs -0 sed -i 's/$0/$1/g'
@@ -15,3 +15,4 @@ function replaceOccurences() {
 replaceOccurences() "GROUP_ID_REPLACE_ME" "$groupId"
 replaceOccurences() "AUTHOR_REPLACE_ME" "$author"
 replaceOccurences() "PLUGIN_NAME_REPLACE_ME" "$pluginName"
+replaceOccurences() "MAIN_PLUGIN_CLASS" "$mainPluginClass"
